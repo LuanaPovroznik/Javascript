@@ -8,5 +8,5 @@ let anoNascimento;
 let resultImc = peso/(altura*altura);
 let resultNascimento = 2021-22;
 
-console.log(nome + ' ' + sobrenome + ' tem ' + idade + ' anos, pesa ' + peso + ' tem ' + altura + ' de altura e seu IMC é: '+resultImc);
-console.log(nome+' '+sobrenome+' nasceu em: '+resultNascimento);
+console.log(`${nome} ${sobrenome} tem ${idade} anos pesa ${peso} tem  ${altura} de altura e seu IMC é: ${resultImc}`);
+console.log(`${nome} ${sobrenome} nasceu em: ${resultNascimento}`);
